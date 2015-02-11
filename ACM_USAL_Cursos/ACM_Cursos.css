@@ -1,5 +1,5 @@
 body{
-	background-color: white;
+	background-color: lightblue;
 }
 img {
   width:100%;
@@ -25,4 +25,8 @@ img {
 {
 	width:100%;
   	height:auto;
+}
+p
+{
+	text-align: left;
 }
