@@ -2,20 +2,23 @@ body{
 	background-color: white;
 }
 img {
-  width:50%;
+  width:100%;
   height:auto;
 }
 #derecha
 {
 	float: right;
+	width: 50%;
 }
 
 #izquierda
 {
 	float: left;
+	width: 50%;
 }
 #cursos
 {
+	width: 100%;
 	text-align: center;
 }
 #HeaderACM, #HeaderACM > img
