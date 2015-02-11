@@ -1,12 +1,25 @@
 body{
 	background-color: white;
-
 }
 img {
-  width:100%;
+  width:50%;
   height:auto;
 }
-multi{
-	vertical-align: top;
+#derecha
+{
+	float: right;
+}
 
+#izquierda
+{
+	float: left;
+}
+#cursos
+{
+	text-align: center;
+}
+#HeaderACM, #HeaderACM > img
+{
+	width:100%;
+  	height:auto;
 }
