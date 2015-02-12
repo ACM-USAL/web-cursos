@@ -2,7 +2,7 @@ body{
 	background-color: lightblue;
 }
 img {
-  width:100%;
+  width:50%;
   height:auto;
 }
 #derecha
@@ -21,11 +21,7 @@ img {
 	width: 100%;
 	text-align: center;
 }
-#HeaderACM, #HeaderACM > img
-{
-	width:100%;
-  	height:auto;
-}
+
 p
 {
 	text-align: left;
