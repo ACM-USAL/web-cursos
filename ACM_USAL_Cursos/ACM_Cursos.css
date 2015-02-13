@@ -1,10 +1,19 @@
 body{
 	background-color: lightblue;
 }
-img {
-  width:50%;
-  height:auto;
+.curso{
+	width: auto;
+	height: auto;
+	overflow: hidden;
 }
+.curso img{
+	display: block;
+}
+img {
+  /*width: auto;
+  height: auto;*/
+}
+
 #derecha
 {
 	float: right;
