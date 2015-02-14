@@ -5,11 +5,11 @@ body{
 	margin: 0;
 	background: rgba(1, 130, 172, 1);
 }
-h3, p{
+h1, h3, p{
 	color:#fff;
 }
 
-h3{
+h1, h3{
     font-family: 'Myriad Pro Bold';
     font-size: 3em;
     font-weight: normal;
@@ -17,6 +17,14 @@ h3{
 p{
     font-family: 'Myriad Pro Regular';
     font-weight: normal;
+}
+#descripcion{
+    text-align: center;
+}
+#descripcion p{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #derecha
 {
@@ -84,6 +92,9 @@ p{
 .contenido h3{
     padding-top: 70px;
     margin: 0;
+}
+.contenido p{
+    padding: 0 10px;
 }
 
 .curso:hover .contenido{
