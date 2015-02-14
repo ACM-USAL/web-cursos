@@ -1,17 +1,45 @@
 body{
 	background-color: lightblue;
 }
+h3, p{
+	color: white;
+}
+
+/*.curso .detalles{
+	position: absolute;
+	display: inline;
+	width: auto;
+}*/
+
+
 .curso{
 	width: auto;
-	height: auto;
+	/*height: 350px;*/
+	max-height: 350px;
 	overflow: hidden;
+	background-repeat: no-repeat;
+    background-position: center; 
+    
 }
+.detalles{
+	visibility: hidden;
+}
+
+h3:hover{
+	visibility: visible !important;
+}
+
+/*.curso:hover{
+	opacity: 0.5;
+	visibility: visible;
+}*/
+
 .curso img{
 	display: block;
 }
 img {
-  /*width: auto;
-  height: auto;*/
+  height: 300px;
+  /*height: auto;*/
 }
 
 #derecha

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="multi" content="width=device-width, intial-scale-1"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>ACM USAL Cursos</title>
+	<div id="HeaderACM">
+		<a href="http://usal.acm.org/"> <img src="resources/escudo_texto.png"></a>
+	</div>
+	<script type="text/javascript">
+		function changeColor(){
+			var cursos = document.querySelectorAll('.curso');
+			var colores = ['#0F4E63', '#0182AC', '#83CEE2'];
+			var i = 0;
+			for (var i = 0; i < cursos.length; i++) {
+				console.log(Math.floor(Math.random()*10)%3);
+	   			 cursos[i].style.backgroundColor = colores[Math.floor(Math.random()*10)%3];
+			}
+		}
+		
+		/*document.addEventListener('DOMContentLoaded', function() {
+    		changeColor();
+		}, false);*/
+	</script>
+</head>
+<body>
+	<div id="cursos">
+		<div id="derecha">
+			<div class="curso firstrow" id="python">
+				<a href="python">
+					<div class="contenido">
+						<h3>Python en la Biotecnología</h3>
+						<p>Python</p>
+					</div>
+				</a>
+			</div>
+			<div class="curso secondrow" id="git/">
+			<a href="git">
+				<div class="contenido">
+					<h3>Git + GitHub</h3>
+					<p>Utilización de git tanto para control de versiones propio
+							como en equipos utilizando GitHub para el alojamiento.
+							Enfocado al desarrollo de las prácticas de la carrera</p>
+				</div>
+			</a>
+			</div>
+			<div class="curso thirdrow" id="sac">
+				<a href="sac/">
+					<div class="contenido">
+						<h3>SAC 2015</h3>
+						<p>Texto descripcion del Curso.</p>
+					</div>
+				</a>
+			</div>
+			<div class="curso fourthrow" id="processing">
+				<a href="processing/">
+					<div class="contenido">
+						<h3>Processing</h3>
+						<p>				
+							http://natureofcode.com/
+							How can we capture the unpredictable evolutionary and emergent 
+							properties of nature in software? How can understanding the mathematical
+							 principles behind our physical world help us to create digital worlds? 
+							This book focuses on the programming strategies and techniques behind 
+							computer simulations of natural systems using Processing.
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="curso fifthrow" id="robotica">
+				<a href="robotica/">
+					<div class="contenido">
+						<h3>Robótica</h3>
+						<p>
+								Cerrar el curso con una actividad del SIGROB, aún por definir.
+								Daniel López tiene un par de ideas, pero aún hay que pulirlo
+						</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div id="izquierda">
+			<div class="curso firstrow" id="fiware">
+				<a href="fiware/">
+					<div class="contenido">
+						<h3>FIWARE</h3>
+						<p>	
+							FIWARE es una plataforma basada en la nube para
+			 				la creación y distribución de servicios 
+							y aplicaciones innovadoras a coste reducido.
+								La idea es traer a gente de la propia FIWARE
+							para hablar del proyecto, invitando a estudiantes y 
+							profesionales (incluyendo empresas como ponentes).
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="curso secondrow" id="unity">
+				<a href="unity/">
+					<div class="contenido">
+						<h3>Unity</h3>
+						<p>
+								Introducción a la plataforma, a fin de dar pie al taller de
+							Cardboard. Diseño de una escena sencilla, 
+							uso del entorno...
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="curso thirdrow" id="cardboard">
+				<a href="cardboard">
+					<div class="contenido">
+						<h3>Cardboard</h3>
+						<p>
+							Utilización de Google Cardboard para realidad aumentada
+							rudimentaria
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="curso fourthrow" id="rna">
+				<a href="rna/">
+					<div class="contenido">
+						<h3>Redes Neuronales</h3>
+						<p>Texto descripción del curso</p>
+					</div>
+				</a>
+			</div>
+			<div class="curso fifthrow" id="opencv">
+				<a href="opencv/">
+					<div class="contenido">
+						<h3>OPENCV</h3>
+						<p>Texto descripcion del Curso.</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
