@@ -2,7 +2,6 @@ body {
     margin: 0;
     background: rgb(1, 130, 172);
 }
-
 h1, h3 {
     color: #fff;
     font-family: 'Myriad Pro Bold';
@@ -14,7 +13,7 @@ p {
     font-family: 'Myriad Pro Regular';
     font-weight: normal;
 }
-ul, li{
+ul, li {
     font-family: 'Myriad Pro Semibold';
     color: #fff;
 }
@@ -39,10 +38,10 @@ ul, li{
     .contenido h3 {
         font-size: 5em;
     }
-    .contenido .fecha strong{
+    .contenido .fecha strong {
         display: none;
     }
-    .contenido .fecha{
+    .contenido .fecha {
         display: inherit;
         font-size: 2.5em;
     }
@@ -69,7 +68,6 @@ ul, li{
         opacity: 100;
     }
 }
-
 .curso {
     height: 300px;
     background-position: center;
@@ -102,8 +100,7 @@ ul, li{
     transition: transform 1s ease;
     animate: cardScale 0.5s normal;
 }
-
-.acm-link, .acm-link:visited, .acm-link:active{
+.acm-link, .acm-link:visited, .acm-link:active {
     color: rgb(255, 214, 0);
     -webkit-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
@@ -112,10 +109,10 @@ ul, li{
     transition: color 0.5s ease;
     text-decoration: none;
 }
-
 /*.acm-link:hover{
     color: ;
 }*/
+
 .curso a {
     text-decoration: none;
 }
@@ -191,20 +188,20 @@ ul, li{
     max-width: 80%;
     height: auto;
 }
-#HeaderACM ul{
+#HeaderACM ul {
     list-style-type: none;
     max-width: 19%;
     font-weight: normal;
     font-size: 1.4vw;
     float: right;
 }
-.clearblue{
+.clearblue {
     background-color: #83CEE2;
 }
-.mediumblue{
+.mediumblue {
     background-color: #0182AC;
 }
-.darkblue{
+.darkblue {
     background-color: #0F4E63;
 }
 .firstrow {
