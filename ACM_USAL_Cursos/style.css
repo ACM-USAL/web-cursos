@@ -35,6 +35,13 @@ p {
     .contenido h3 {
         font-size: 5em;
     }
+    .contenido .fecha strong{
+        display: none;
+    }
+    .contenido .fecha{
+        display: inherit;
+        font-size: 2.5em;
+    }
     .contenido p {
         display: none;
     }
@@ -180,6 +187,15 @@ p {
     width: auto;
     max-width: 80%;
     height: auto;
+}
+.clearblue{
+    background-color: #83CEE2;
+}
+.mediumblue{
+    background-color: #0182AC;
+}
+.darkblue{
+    background-color: #0F4E63;
 }
 .firstrow {
     background-color: rgb(15, 78, 99);
