@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    background: rgb(1, 130, 172);
+}
+
+h1, h3 {
+    color: #fff;
+    font-family: 'Myriad Pro Bold';
+    font-size: 3em;
+    font-weight: normal;
+}
+p {
+    color: #fff;
+    font-family: 'Myriad Pro Regular';
+    font-weight: normal;
+}
+ul, li{
+    font-family: 'Myriad Pro Semibold';
+    color: #fff;
+}
+#descripcion {
+    text-align: center;
+}
+#descripcion p {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-device-width: 119px) and (max-device-width: 500px) {
+    #derecha {
+        width: 100%;
+    }
+    #izquierda {
+        width: 100%;
+    }
+    .contenido {
+        opacity: 100;
+    }
+    .contenido h3 {
+        font-size: 5em;
+    }
+    .contenido .fecha strong{
+        display: none;
+    }
+    .contenido .fecha{
+        display: inherit;
+        font-size: 2.5em;
+    }
+    .contenido p {
+        display: none;
+    }
+    #descripcion p:nth-child(3) {
+        display: none;
+    }
+}
+@media only screen and (min-device-width: 501px) {
+    #derecha {
+        float: right;
+        width: 50%;
+    }
+    #izquierda {
+        float: left;
+        width: 50%;
+    }
+    .contenido {
+        opacity: 0;
+    }
+    .curso:hover .contenido {
+        opacity: 100;
+    }
+}
+
+.curso {
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -ms-box-shadow: inset 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: inset 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: inset 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+}
+@-moz-keyframes cardScale {
+    0% {
+        background-size: contain;
+    }
+    100% {
+        background-size: 120%;
+    }
+}
+.curso:hover {
+    transform: scale(1.03, 1.03);
+    transition: transform 1s ease;
+    animate: cardScale 0.5s normal;
+}
+
+.acm-link, .acm-link:visited, .acm-link:active{
+    color: rgb(255, 214, 0);
+    -webkit-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    text-decoration: none;
+}
+
+/*.acm-link:hover{
+    color: ;
+}*/
+.curso a {
+    text-decoration: none;
+}
+.curso a:visited {
+    text-decoration: none;
+}
+.contenido {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    ;
+    position: relative;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.3);
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+.contenido h3 {
+    padding-top: 70px;
+    margin: 0;
+}
+.contenido p {
+    padding: 0 10px;
+}
+/*backgrounds*/
+
+#python {
+    background-image: url('../resources/python.png');
+}
+#opencv {
+    background-image: url('../resources/opencv_logo.png');
+}
+#git {
+    background-image: url('../resources/octocat.png');
+}
+#processing {
+    background-image: url('../resources/processing.png');
+}
+#robotica {
+    background-image: url('../resources/arduino.png');
+}
+#unity {
+    background-image: url('../resources/unity3d1.png');
+}
+#cardboard {
+    background-image: url('../resources/cardboard_logo.png');
+}
+#sac {
+    background-image: url('../resources/Maquina.png');
+}
+#rna {
+    background-image: url('../resources/rna.jpg');
+    background-size: cover;
+}
+#fiware {
+    background-image: url('../resources/fiware1.png');
+}
+#HeaderACM {
+    -ms-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 42px -3px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+#HeaderACM img {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    max-width: 80%;
+    height: auto;
+}
+#HeaderACM ul{
+    list-style-type: none;
+    max-width: 19%;
+    font-weight: normal;
+    font-size: 1.4vw;
+    float: right;
+}
+.clearblue{
+    background-color: #83CEE2;
+}
+.mediumblue{
+    background-color: #0182AC;
+}
+.darkblue{
+    background-color: #0F4E63;
+}
+.firstrow {
+    background-color: rgb(15, 78, 99);
+}
+.secondrow {
+    background-color: rgba(1, 130, 172, 1);
+}
+.thirdrow {
+    background-color: rgb(15, 78, 99);
+}
+.fourthrow {
+    background-color: rgba(1, 130, 172, 1);
+}
+.fifthrow {
+    background-color: rgb(15, 78, 99);
+}
