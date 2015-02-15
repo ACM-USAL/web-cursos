@@ -90,6 +90,19 @@ p {
     transition: transform 1s ease;
     animate: cardScale 0.5s normal;
 }
+
+.acm-link, .acm-link:visited, .acm-link:active{
+    color: white;
+    -webkit-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.acm-link:hover{
+    color: rgb(255, 214, 0);
+}
 .curso a {
     text-decoration: none;
 }
