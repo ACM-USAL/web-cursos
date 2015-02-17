@@ -2,7 +2,7 @@
     margin: 0;
 }
 h1,h2,h3,h4,h5,h6,p,ul,li,a{
-    color: rgb(255,255,255);
+    color: white;
     font-family: 'Myriad Pro Regular';
     font-weight: normal;
 }
@@ -26,22 +26,30 @@ a, a:visited, a:active{
 a:hover{
     color: rgb(255, 214, 0);
 }
+@media only screen and (max-device-width: 800px) {
+    html{
+        background-image: url('../img/DNA-photo1.jpg');
+        background-attachment: fixed;
+    }
+}
+@media only screen and (min-device-width: 801px) {
+    html:before{
+        background-image: url('../img/DNA-photo1.jpg');
+        content: "";
+        z-index: -1;
+        display: block;
+        width: 100%;
+        position: fixed;
+        left:0;
+        right: 0;
+        height: 100%;
 
-html:before {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    display: block;  
-    background-image: url('../img/DNA-photo1.jpg');
-    width: 100%;
-    height: 780px;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+    }
 }
 body {
     margin: 0;
@@ -85,7 +93,6 @@ ul{
     height: 500px;
 }
 .ponente{
-	width: 100%;
 	display: block;/*float: left;*/
 	padding-top: 10px;
 	margin-left: auto;
