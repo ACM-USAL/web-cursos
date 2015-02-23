@@ -88,6 +88,9 @@ ul{
 #introduccion p{
     color: white;
 }
+#introduccion h4{
+    text-align: center;
+}
 #ponentes {
     background: rgba(53,53,53,0.9);
     height: 1000px;
