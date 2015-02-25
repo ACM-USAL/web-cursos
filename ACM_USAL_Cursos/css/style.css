@@ -26,10 +26,17 @@ ul, li {
     margin-right: auto;
 }
 @media only screen and (min-device-width: 119px) and (max-device-width: 500px) {
-    #derecha {
+    .mobile{
+        display: inherit;
+    }
+    .full{
+        display: none;
+    }
+
+    .derecha {
         width: 100%;
     }
-    #izquierda {
+    .izquierda {
         width: 100%;
     }
     .contenido {
@@ -53,11 +60,17 @@ ul, li {
     }
 }
 @media only screen and (min-device-width: 501px) {
-    #derecha {
+    .mobile{
+        display: none;
+    }
+    .full{
+        display: inherit;
+    }
+    .derecha {
         float: right;
         width: 50%;
     }
-    #izquierda {
+    .izquierda {
         float: left;
         width: 50%;
     }
