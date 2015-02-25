@@ -157,12 +157,15 @@ ul, li {
 
 #python {
     background-image: url('../resources/python.png');
+    background-size: 120% !important;
 }
 #opencv {
     background-image: url('../resources/opencv_logo.png');
 }
 #git {
-    background-image: url('../resources/octocat.png');
+    /*background-image: url('../resources/octocat.png');*/
+    background-image: url('https://octodex.github.com/images/topguntocat.png');
+    background-size: 150%;
 }
 #processing {
     background-image: url('../resources/processing.png');
@@ -171,7 +174,8 @@ ul, li {
     background-image: url('../resources/arduino.png');
 }
 #unity {
-    background-image: url('../resources/unity3d1.png');
+    background-image: url('/unity/img/demotaller.png');
+    background-size: 150%;
 }
 #cardboard {
     background-image: url('../resources/cardboard_logo.png');
