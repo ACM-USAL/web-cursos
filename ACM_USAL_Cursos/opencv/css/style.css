@@ -1,0 +1,21 @@
+#banner{
+	max-height: 50px;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Myriad Pro Bold';
+	font-size: 3em !important;
+    font-weight: normal !important;
+}
+.page-scroll a{
+	font-family: 'Myriad Pro Bold';
+    font-weight: normal !important;
+}
+a, p{
+	font-family: 'Myriad Pro Regular';
+    font-weight: normal !important;
+}
+
+section.success{
+	background: none repeat scroll 0% 0% #0182AC;
+}

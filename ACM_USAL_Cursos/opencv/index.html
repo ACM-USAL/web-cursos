@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#2c3e50">
+    <link rel="shortcut icon" href="http://usal.acm.org/favicon.ico" />
+
+    <title>OpenCV | ACM USAL</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Activar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="#page-top">ACM <3 GIT</a>-->
+                <a target="_blank" href="http://usal.acm.org/">
+                    <img id="banner" src="img/escudo_texto.png" alt="Escudo de la Asociación ACM USAL"/>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Ponentes</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">¿Qué necesito?</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Registro</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="skills">Visión Artificial con OpenCV</span>
+                        <hr class="star-light">
+                    </div>
+                    <!--<img class="img-responsive" src="img/banner.png" alt="">-->
+                    <div id="descripcion">
+                        <p>La visión artificial es el conjunto de técnicas que permite a un ordenador <em>comprender</em> las características de una imagen, reconociendo objetos, transformando la imagen en una nueva, o incluso crear realidades aumentadas.                        
+                        </p>
+                        <p>
+                            En este seminario realizaremos una introducción a la biblioteca abierta OpenCV, que incluye un gran conjunto de herramientas para el procesado y reconocimiento de imágenes, tanto para ordenadores como equipos móviles (<em>smartphones</em>, <em>tablets</em>...).
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Ponentes</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/studies.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/code.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/laptop.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>¿Qué necesito?</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-1">
+                    <p>OpenCV para C/C++</p>
+                    <p>Realizaremos varios ejercicios con la API de OpenCV para C/C++, por lo que será necesario que antes de venir al taller instales el software. Existen versiones para Windows, OS X y GNU/Linux, integrables con IDEs como Visual Studio, XCode o Eclipse.
+                    </p>
+                    <p>
+                        Trabajaremos principalmente con C++, por lo que es conveniente tener conocimientos básicos de la Programación Orientada a Objetos.
+                    </p>
+
+                </div>
+                <div class="col-lg-4">
+                    <ul>
+                        <li><a href="http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html" target="_blank"> Instalación en Windows con Visual Studio</a></li>
+                        <li><a href="https://sites.google.com/site/yonasstephenfyp2013/updates/tutorialinstallingopencvonmacosxmountainlion" target="_black">Instalación en OS X con XCode</a></li>
+                        <li><a href="http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation" target="_blank">Instalación en GNU/Linux</a>, e <a href="http://docs.opencv.org/doc/tutorials/introduction/linux_eclipse/linux_eclipse.html" target="_blank"> integración con Eclipse</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>
+                        -> Traer instalado git en tu máquina <-
+                    </p>
+                    <p>
+                        * Linux
+                    </p>
+                    <p>
+                         Debian based: $ apt-get install git
+                    </p>
+                    <p>
+                         Fedora based: $ yum install git-core
+                    </p>
+                    <p>
+                        * Mac
+                    </p>
+                    <p>
+                        <a href="http://sourceforge.net/projects/git-osx-installer/" target="_blank">Git OSX Installer</a>
+                    </p>
+                    <p>
+                        * Windows
+                    </p>
+                    <p>
+                        <a href="http://msysgit.github.com/" target="_blank">msysGit</a>
+                    </p>
+                </div>-->
+                <!--<div class="col-lg-4">
+                    <p>
+                        -> Estar registrado en GitHub <-
+                    </p>
+                    <p>
+                        <a href="https://github.com/" target="_blank">Web de GitHub</a>
+                    </p>
+                </div>-->
+                
+            </div>
+        </div>
+    </section>
+    <section id="date">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>¿Cuándo?</h2>
+                    <p>El día 2 de abril, a las 17:00 en la Facultad de Ciencias (Plaza de los Caídos s/n)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1506.4730569031549!2d-5.669699398812208!3d40.960759300249265!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3f26407fe01095%3A0x42dfc0e901de5577!2sFacultad+de+Ciencias!5e0!3m2!1sen!2sde!4v1424857525420" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Registro</h2>
+                    <p>El taller es gratuito, y solo es necesario registrarse si deseas obtener un certificado de asistencia.</p>
+                    <hr class="star-primary">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <!--<div class="footer-col col-md-4">
+                        <h3>¿Dónde?</h3>
+                        <p>Salamanca<br>Castilla y León, España</p>
+                    </div>-->
+                    <div class="footer-col col-md-4">
+                        <h3>Redes Sociales</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/ACMUSAL?ref=br_tf" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/0/104532470445248089407/posts" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/acmSalamanca" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>¿Te apuntas?</h3>
+                        <a href="http://usal.acm.org/registro/" target="_blank">Registro gratuito</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; ACM USAL 2015
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Intro</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/studies.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Se verá una introducción a lo que es el sistema Git, creado por Linus Torvalds, desde un punto de vista general.
+                            </p>
+			                <p> 
+                                Posteriormente se hablará de la imporancia del sistema en la ingeniería informática en la actualidad, y como nos puede sacar de un serio apuro en nuestra vida profesional.
+                            </p>
+			                <p> 
+                                Se repasarán algunas de las características técnicas para finalizar la introducción del taller.
+                            </p>
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Coding</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/code.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Se verán los comandos mas interesantes, populares y útiles de Git si vamos a utilizar el sistema desde la línea de comandos. Se hará de manera pausada y comprensiva, explicando cada uno de los comandos, y permitiendo a los asistentes poder seguir el taller de una manera cómoda y entretenida.
+                            </p>
+                            <p>
+                                También se dará un vistazo a la posibilidad de uso de git con clientes de escritorio, aunque esto sea de n00bs ;)
+                            </p>                            
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Demo</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/laptop.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Haremos un fork a un repositorio preparado para el taller para trabajar con él.
+                            </p>
+                            <p>
+                                Lo subiremos a un repositorio propio en GitHub.
+                            </p>
+                            <p>
+                                Jugaremos con el repositorio, viendo ahora de manera práctica lo útil que nos puede ser el sistema para realizar trabajos colaborativos con compañeros, pudiendo llevar un control ordenado de las versiones, y sin miedo a que la podamos liar parda.
+                            </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>
