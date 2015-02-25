@@ -232,3 +232,9 @@ ul, li {
 .fifthrow {
     background-color: rgb(15, 78, 99);
 }
+
+footer{
+    text-align: center;
+    font-size: 2em;
+    padding: 0px 20px;
+}
