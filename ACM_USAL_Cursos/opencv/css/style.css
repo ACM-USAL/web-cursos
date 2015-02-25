@@ -39,6 +39,7 @@ header{
 	background-image: url('http://hacklab.cz/files/images/opencv_logo.gif');
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption{
